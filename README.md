@@ -28,6 +28,3 @@ python stock_sentiment.py
 - Correlates sentiment with stock price movements
 - Provides basic trend predictions
 
-## Note
-
-This is a beginner-friendly project for educational purposes. Always do your own research before making investment decisions. 
