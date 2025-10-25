@@ -1,0 +1,29 @@
+Initializing Conda...
+Loading Conda environment...
+Loading CUDA module...
+--- Environment Info ---
+Job running on node: cn07
+Current directory: /csehome/m24cse029/shubham_MTP/Masters-Thesis-Project
+Using Python: /csehome/m24cse029/miniconda3/envs/sentiment/bin/python
+Python 3.12.12
+--- PyTorch Info ---
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/csehome/m24cse029/miniconda3/envs/sentiment/lib/python3.12/site-packages/torch/__init__.py", line 367, in <module>
+    from torch._C import *  # noqa: F403
+    ^^^^^^^^^^^^^^^^^^^^^^
+ImportError: /csehome/m24cse029/miniconda3/envs/sentiment/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so: undefined symbol: iJIT_NotifyEvent
+PyTorch import or check failed!
+--- Running Data Collection ---
+Fetching Reddit data...
+Scraping r/Bitcoin...
+r/Bitcoin:   0%|          | 0/200 [00:00<?, ?it/s]r/Bitcoin:   0%|          | 1/200 [00:03<11:09,  3.36s/it]r/Bitcoin:  50%|█████     | 101/200 [00:05<00:04, 22.45it/s]r/Bitcoin: 100%|██████████| 200/200 [00:05<00:00, 36.40it/s]
+Scraping r/CryptoCurrency...
+r/CryptoCurrency:   0%|          | 0/200 [00:00<?, ?it/s]r/CryptoCurrency:   0%|          | 1/200 [00:01<05:38,  1.70s/it]r/CryptoCurrency:  50%|█████     | 101/200 [00:03<00:03, 32.97it/s]r/CryptoCurrency: 100%|██████████| 200/200 [00:03<00:00, 56.11it/s]
+Saved Reddit data: 400 posts
+Fetching NewsAPI data...
+Fetching news articles...
+Total news results available: 11721
+Processing news:   0%|          | 0/98 [00:00<?, ?it/s]Processing news: 100%|██████████| 98/98 [00:00<00:00, 1462782.18it/s]
+Saved NewsAPI data: 98 articles
+--- Script Finished ---

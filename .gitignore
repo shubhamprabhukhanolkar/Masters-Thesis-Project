@@ -3,7 +3,7 @@ __pycache__/
 *.pyc
 
 # Conda environment
-mtp_env/
+sentiment/
 
 # API keys
 config/secrets.ini
